@@ -71,12 +71,13 @@ function Ja () {
         basic.clearScreen()
         basic.pause(100)
     }
+    Vågn()
 }
 function Vågn () {
     if (Sover) {
         Sover = false
         basic.showLeds(`
-            # # # # #
+            . . . . .
             . . . . .
             # # # # #
             . # # # .
